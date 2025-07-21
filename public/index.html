@@ -9,7 +9,7 @@
 </head>
 <body>
   <h1>Tic-Tac-Toe</h1>
-  <div id="game"></div>
+  <div id="board"></div>
 
 
   <div id="attribution">
@@ -17,9 +17,10 @@
     <p>Game by <a href="https://github.com/JAMBallou/tic-tac-ml" title="JAMBallou">JAMBallou</a></p>
 
   </div>
+  <script type="module" src="../src/utils/constants.js"></script>
+  <script type="module" src="../src/utils/gameLogic.js"></script>
 
-  <script src="../src/scripts/game.js"></script>
-  <script src="../src/scripts/ai.js"></script>
-  <script src="../src/scripts/main.js"></script>
+  <script type="module" src="../src/components/cell.js"></script>
+  <script type="module" src="../src/components/board.js"></script>
 </body>
 </html>
