@@ -13,7 +13,7 @@ Planned features:
 
 ## Attrbution
 
-Favicon by <a href="https://www.flaticon.com/authors/rikas-dzihab">Rikas Dzihab</a> at <a href="flaticon.com">flaticon.com</a>.
+Favicon by <a href="https://www.flaticon.com/authors/rikas-dzihab">Rikas Dzihab</a> at <a href="https://www.flaticon.com">flaticon.com</a>.
  
 
 ## License
