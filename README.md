@@ -18,4 +18,4 @@ Favicon by <a href="https://www.flaticon.com/authors/rikas-dzihab">Rikas Dzihab<
 
 ## License
 
-This project is licensed under the MIT License. See <a href="LICENSE.TXT">LICENSE</a> for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
