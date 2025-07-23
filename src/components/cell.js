@@ -1,6 +1,8 @@
 /* src/components/cell.js */
 // Create cell components for the Tic Tac Toe game in a 3x3 grid
 
+import { handleCellClick } from "../utils/gameLogic.js";
+
 export function createBoard() {
   for (let i = 0; i < 3; i++) {
     const row = document.createElement("div");
@@ -12,6 +14,8 @@ export function createBoard() {
       cell.className = "cell";
       cell.dataset.index = i * 3 + j;
       row.appendChild(cell);
+
+      cell.addEventListener("click", handleCellClick);
     }
   }
 }
