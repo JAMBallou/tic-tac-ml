@@ -4,10 +4,13 @@
 export function handleCellClick(event) {
   // Handles click events on the game board cells
 
-  const currentPlayer = document.getElementById("current-player");
   const cell = event.target;
+
   if (cell.textContent === "") { // Check if the cell is empty
     // Update the cell with the current player's symbol
+
+    const currentPlayer = document.getElementById("current-player");
+    // Toggle between "X" and "O"
     cell.textContent = currentPlayer.textContent;
     currentPlayer.textContent = currentPlayer.textContent === "X" ? "O" : "X";
 
